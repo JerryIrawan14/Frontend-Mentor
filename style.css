@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Outfit',sans-serif;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('path-to-your-font-files/Outfit-Regular.woff2') format('woff2'),
+         url('path-to-your-font-files/Outfit-Regular.woff') format('woff');
+    font-weight: 400,700;
+    font-style: normal;
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.card-wrapper{
+    width: 15rem;
+    display: flex;
+    margin: 1rem;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+.img-qr{
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+    color: gray;
+}
+@media only screen and (max-width: 600px) {
+    .card-wrapper{
+        width: 20rem;
+    }
+    .img-qr{
+        width: 15rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+} 
+    
+
+
